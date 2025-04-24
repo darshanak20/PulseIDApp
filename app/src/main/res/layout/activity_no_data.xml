@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#FFFFFF">
+
+    <!-- Card saying No data found -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        card_view:cardCornerRadius="16dp"
+        card_view:cardElevation="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#E0F9FF">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="No data found"
+            android:textSize="18sp"
+            android:textColor="#777777"
+            android:gravity="center" />
+    </androidx.cardview.widget.CardView>
+
+    <!-- Add Medical Info Button -->
+    <Button
+        android:id="@+id/btnAddMedicalInfo"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="Add Medical Info"
+        android:backgroundTint="#429EB1"
+        android:textSize="15dp"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:layout_margin="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp" />
+</LinearLayout>

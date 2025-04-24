@@ -1,0 +1,52 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F8FBFF">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <!-- Basic Info Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="#E6FAFF"
+            card_view:cardCornerRadius="16dp"
+            card_view:cardElevation="6dp">
+
+
+
+                    <TextView android:id="@+id/tvName" android:text="Name: -"
+                        android:textStyle="bold" android:textSize="16sp"/>
+                    <TextView android:id="@+id/tvAge" android:text="Age: -" />
+                    <TextView android:id="@+id/tvBloodGroup" android:text="Blood Group: -" />
+                    <TextView android:id="@+id/tvAllergies" android:text="Allergies: -" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Functional Cards -->
+        <include layout="@layout/item_dashboard_card"
+            android:id="@+id/cardEmergencyContact"
+            android:tag="Emergency Contact" />
+
+        <include layout="@layout/item_dashboard_card"
+            android:id="@+id/cardNearbyHospital"
+            android:tag="Nearby Hospital" />
+
+        <include layout="@layout/item_dashboard_card"
+            android:id="@+id/cardHealthReport"
+            android:tag="Personal Health Report" />
+
+        <include layout="@layout/item_dashboard_card"
+            android:id="@+id/cardEmergencyCard"
+            android:tag="Emergency Action Card" />
+    </LinearLayout>
+</ScrollView>
+

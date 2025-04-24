@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "232256401121",
+    "project_id": "pulseid-5a27c",
+    "storage_bucket": "pulseid-5a27c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232256401121:android:d24a8d408aaeb6ba74d1a0",
+        "android_client_info": {
+          "package_name": "com.example.pulseid"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANOFJ39Cxpv7Ltn2xCGix8YzS-iTcLxDw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

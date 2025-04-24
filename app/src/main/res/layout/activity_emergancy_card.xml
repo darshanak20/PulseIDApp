@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp"
+    tools:context=".EmergencyContactActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_emergency_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#64C1F7"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="Emergency Card"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etContactName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contact Name"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/edittext_bg"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/etContactPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contact Number"
+            android:inputType="phone"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edittext_bg"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/etContactRelation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Relation"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edittext_bg"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/btnAddContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Contact"
+            android:layout_marginTop="12dp"
+            android:background="@color/_64bdf8"
+            android:textColor="#fff"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewContacts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+</ScrollView>
+
