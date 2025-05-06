@@ -35,7 +35,7 @@ class NearbyHospitalActivity : AppCompatActivity(), OnMapReadyCallback {
     private lateinit var hospitalAdapter: HospitalAdapter
     private val hospitals = mutableListOf<Hospital>()
 
-    private val API_KEY = "AIzaSyCha03B6DUP9JBqsTWN-Lknvpt-px01dUc"
+   
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_nearby_hospital)
