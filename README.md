@@ -2,6 +2,7 @@
 PulseID is a native Android application developed in Kotlin that serves as a digital medical emergency identification system. In urgent situations, it allows first responders and doctors to access a person's vital medical information even if the user is unconscious or unable to communicate.
 
 🚀 Features
+
 🔐 Firebase Authentication
 Secure login system using Firebase Auth.
 
