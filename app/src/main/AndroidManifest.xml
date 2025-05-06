@@ -35,10 +35,6 @@
             android:name=".EmergencyContactAdapter"
             android:exported="true" />
 
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCha03B6DUP9JBqsTWN-Lknvpt-px01dUc" />
-
         <activity
             android:name=".AddMedicalInfoActivity"
             android:exported="true" />
